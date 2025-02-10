@@ -64,7 +64,7 @@ pip install -r requirements.txt
 ### ▶️ Running the Code
 To run the program directly, use:
 ```bash
-python3 main.py
+uvicorn main:app --reload
 ```
 
 ### Swagger Endpoint Documentation
